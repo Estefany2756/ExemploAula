@@ -79,6 +79,7 @@
             txtsenha.Font = new Font("Arial Narrow", 14.25F, FontStyle.Bold);
             txtsenha.Location = new Point(156, 145);
             txtsenha.Name = "txtsenha";
+            txtsenha.PasswordChar = '*';
             txtsenha.Size = new Size(100, 29);
             txtsenha.TabIndex = 4;
             // 
@@ -91,6 +92,7 @@
             btnlogar.TabIndex = 5;
             btnlogar.Text = "Logar";
             btnlogar.UseVisualStyleBackColor = true;
+            btnlogar.Click += btnlogar_Click;
             // 
             // Form1
             // 
