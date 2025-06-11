@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             lbllogin = new Label();
+            lblusuario = new Label();
             SuspendLayout();
             // 
             // lbllogin
@@ -40,11 +41,21 @@
             lbllogin.TabIndex = 0;
             lbllogin.Text = "Login";
             // 
+            // lblusuario
+            // 
+            lblusuario.AutoSize = true;
+            lblusuario.Location = new Point(143, 99);
+            lblusuario.Name = "lblusuario";
+            lblusuario.Size = new Size(47, 15);
+            lblusuario.TabIndex = 1;
+            lblusuario.Text = "Usuário";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblusuario);
             Controls.Add(lbllogin);
             Name = "Form1";
             Text = "Form1";
@@ -55,5 +66,6 @@
         #endregion
 
         private Label lbllogin;
+        private Label lblusuario;
     }
 }
