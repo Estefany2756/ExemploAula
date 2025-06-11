@@ -39,49 +39,55 @@
             // lbllogin
             // 
             lbllogin.AutoSize = true;
-            lbllogin.Location = new Point(246, 41);
+            lbllogin.Font = new Font("Arial Narrow", 14.25F, FontStyle.Bold);
+            lbllogin.Location = new Point(124, 29);
             lbllogin.Name = "lbllogin";
-            lbllogin.Size = new Size(37, 15);
+            lbllogin.Size = new Size(54, 23);
             lbllogin.TabIndex = 0;
             lbllogin.Text = "Login";
             // 
             // lblusuario
             // 
             lblusuario.AutoSize = true;
-            lblusuario.Location = new Point(143, 99);
+            lblusuario.Font = new Font("Arial Narrow", 14.25F, FontStyle.Bold);
+            lblusuario.Location = new Point(60, 90);
             lblusuario.Name = "lblusuario";
-            lblusuario.Size = new Size(47, 15);
+            lblusuario.Size = new Size(69, 23);
             lblusuario.TabIndex = 1;
             lblusuario.Text = "Usuário";
             // 
             // lblsenha
             // 
             lblsenha.AutoSize = true;
-            lblsenha.Location = new Point(149, 137);
+            lblsenha.Font = new Font("Arial Narrow", 14.25F, FontStyle.Bold);
+            lblsenha.Location = new Point(60, 145);
             lblsenha.Name = "lblsenha";
-            lblsenha.Size = new Size(39, 15);
+            lblsenha.Size = new Size(58, 23);
             lblsenha.TabIndex = 2;
             lblsenha.Text = "Senha";
             // 
             // txtusuario
             // 
-            txtusuario.Location = new Point(304, 101);
+            txtusuario.Font = new Font("Arial Narrow", 14.25F, FontStyle.Bold);
+            txtusuario.Location = new Point(156, 90);
             txtusuario.Name = "txtusuario";
-            txtusuario.Size = new Size(100, 23);
+            txtusuario.Size = new Size(100, 29);
             txtusuario.TabIndex = 3;
             // 
             // txtsenha
             // 
-            txtsenha.Location = new Point(307, 153);
+            txtsenha.Font = new Font("Arial Narrow", 14.25F, FontStyle.Bold);
+            txtsenha.Location = new Point(156, 145);
             txtsenha.Name = "txtsenha";
-            txtsenha.Size = new Size(100, 23);
+            txtsenha.Size = new Size(100, 29);
             txtsenha.TabIndex = 4;
             // 
             // btnlogar
             // 
-            btnlogar.Location = new Point(281, 240);
+            btnlogar.Font = new Font("Arial Narrow", 14.25F, FontStyle.Bold);
+            btnlogar.Location = new Point(124, 218);
             btnlogar.Name = "btnlogar";
-            btnlogar.Size = new Size(75, 23);
+            btnlogar.Size = new Size(75, 34);
             btnlogar.TabIndex = 5;
             btnlogar.Text = "Logar";
             btnlogar.UseVisualStyleBackColor = true;
